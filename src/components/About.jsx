@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function About() {
   return (
     <>
@@ -20,6 +22,8 @@ export default function About() {
             Nulla pellentesque dignissim enim sit amet venenatis urna.
           </p>
         </div>
+
+        <Button />
       </main>
     </>
   );
