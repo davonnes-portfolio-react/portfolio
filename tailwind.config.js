@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         audio: "'Audiowide', sans-serif",
+        fugaz: "'Fugaz One', sans-serif",
       },
     },
   },
