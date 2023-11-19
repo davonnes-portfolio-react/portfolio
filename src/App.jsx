@@ -1,7 +1,10 @@
-import "./App.css";
+import React from "react";
+import { NavBar } from "./components/NavBar";
 
-function App() {
-  return <>lets go</>;
+export default function App() {
+  return (
+    <div className="bg-purple-600 p-5 w-full">
+      <NavBar />
+    </div>
+  );
 }
-
-export default App;
