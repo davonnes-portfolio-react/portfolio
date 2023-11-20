@@ -8,6 +8,9 @@ export default {
         fugaz: "'Fugaz One', sans-serif",
         lobster: "'Lobster', cursive",
       },
+      backgroundImage: {
+        lights: "url('images/lights.jng')",
+      },
     },
   },
   plugins: [],

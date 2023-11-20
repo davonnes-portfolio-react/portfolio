@@ -8,8 +8,8 @@ export default function Home() {
     navigate("/main");
   };
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
-      <span className="text-black text-5xl font-lobster ">
+    <div className="flex flex-col justify-center items-center h-screen bg-cover bg-[url('images/lights.jpg')]">
+      <span className="text-black text-6xl font-lobster ">
         {" "}
         I am a Front-End Developer
       </span>
@@ -17,9 +17,9 @@ export default function Home() {
       <button
         type="button"
         onClick={goToMain}
-        className="bg-pink-400 p-3 rounded-full hover:text-white font-audio w-40 mt-10"
+        className="bg-black text-white p-3 rounded-full hover:text-green-200 font-audio w-40 mt-10"
       >
-        See More
+        Find Out More
       </button>
     </div>
   );

@@ -31,7 +31,7 @@ export default function Main() {
         </div>
 
         <div className=" flex flex-row gap-8">
-          <Button />
+          <Button>Contact Me</Button>
           <Link to="https://github.com/Davonne007-TX">
             {" "}
             <img src="images/githubLogo.png" className="w-20" />
