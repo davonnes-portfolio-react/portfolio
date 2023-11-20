@@ -1,4 +1,5 @@
 import { NavBar } from "./NavBar";
+import { Link } from "react-router-dom";
 import Button from "./Button";
 
 export default function Main() {
@@ -13,7 +14,7 @@ export default function Main() {
             className="w-full max-w-sm rounded-full sm:max-w-xs"
           />
 
-          <div className="ml-4 flex flex-col">
+          <div className="ml-4 flex flex-col items-center sm:items-start">
             <span className="mt-20 text-4xl font-fugaz">
               Hello I'm Davonne &#128075;
             </span>
@@ -29,7 +30,16 @@ export default function Main() {
           </div>
         </div>
 
-        <Button />
+        <div className=" flex flex-row gap-8">
+          <Button />
+          <Link to="https://github.com/Davonne007-TX">
+            {" "}
+            <img src="images/githubLogo.png" className="w-20" />
+          </Link>
+          <Link to="https://www.linkedin.com/in/davonnevigil/">
+            <img src="images/linkedIn.png" className="w-20" />
+          </Link>
+        </div>
       </main>
     </>
   );
