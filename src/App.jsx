@@ -1,15 +1,15 @@
 import React from "react";
-import { NavBar } from "./components/NavBar";
-import About from "./components/About";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Main from "./components/Main";
 
 export default function App() {
   return (
     <>
-      <div className="bg-pink-300 p-5 w-full">
-        <NavBar />
-      </div>
-
-      <About />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/main" element={<Main />} />
+      </Routes>
     </>
   );
 }

@@ -1,8 +1,10 @@
+import { NavBar } from "./NavBar";
 import Button from "./Button";
 
-export default function About() {
+export default function Main() {
   return (
     <>
+      <NavBar />
       <main className="max-w-4xl flex flex-col items-center sm:items-start lg:ml-20">
         <h2 className="mt-20 text-4xl font-fugaz">Davonne J. Vigil</h2>
 
